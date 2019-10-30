@@ -66,4 +66,5 @@ async function mainLoopAsync() {
   fs.writeFileSync('blocks.xlsx', xls, 'binary');
 
   console.log("all finish")
+  process.exit(0);
 }

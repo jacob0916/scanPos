@@ -63,3 +63,4 @@ async function main() {
   fs.writeFileSync('infos.xlsx', xls, 'binary');
   process.exit(0)
 }
+
